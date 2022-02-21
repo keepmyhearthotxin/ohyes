@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ohyes1
+  name: ohyes2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ohyes1
+      app: ohyes2
   template:
     metadata:
       labels:
-        app: ohyes1
+        app: ohyes2
     spec:
       containers:
-      - image: okteto.dev/ohyes1:latest
-        name: ohyes1
+      - image: okteto.dev/ohyes2:latest
+        name: ohyes2
         ports:
         - containerPort: 8080
         env:
