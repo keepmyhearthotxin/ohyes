@@ -21,7 +21,7 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "51ape.com"
+          value: "icook.tv"
         - name: Vless_UUID
           value: "ea33a238-c64b-4dae-ae78-21576bee814d"
         - name: Vless_Path
