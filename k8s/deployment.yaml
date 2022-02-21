@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ohyes2
+  name: ohyes
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ohyes2
+      app: ohyes
   template:
     metadata:
       labels:
-        app: ohyes2
+        app: ohyes
     spec:
       containers:
-      - image: okteto.dev/ohyes2:latest
-        name: ohyes2
+      - image: okteto.dev/ohyes:latest
+        name: ohyes
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: "51ape.com"
         - name: Vless_UUID
-          value: "6b23ed38-03bd-488d-b5bd-f92e77a5631c"
+          value: "ea33a238-c64b-4dae-ae78-21576bee814d"
         - name: Vless_Path
           value: "/ohyess"
         - name: Vmess_UUID
-          value: "6b23ed38-03bd-488d-b5bd-f92e77a5631c"
+          value: "ea33a238-c64b-4dae-ae78-21576bee814d"
         - name: Vmess_Path
           value: "/ohmess"
         - name: Share_Path
