@@ -21,7 +21,7 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "music.163.com"
+          value: "$ProxySite"
         - name: Vless_UUID
           value: "eab2b090-dc4e-48cd-978b-ff55f1947301"
         - name: Vless_Path
