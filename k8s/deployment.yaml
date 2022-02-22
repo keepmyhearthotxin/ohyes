@@ -21,7 +21,7 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "mikuta.nu"
+          value: "music.163.com"
         - name: Vless_UUID
           value: "6b23ed38-03bd-488d-b5bd-f92e77a5631c"
         - name: Vless_Path
