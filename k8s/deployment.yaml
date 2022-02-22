@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: "music.163.com"
         - name: Vless_UUID
-          value: "6b23ed38-03bd-488d-b5bd-f92e77a5631c"
+          value: "eab2b090-dc4e-48cd-978b-ff55f1947301"
         - name: Vless_Path
           value: "/ohyess"
         - name: Vmess_UUID
-          value: "6b23ed38-03bd-488d-b5bd-f92e77a5631c"
+          value: "eab2b090-dc4e-48cd-978b-ff55f1947301"
         - name: Vmess_Path
           value: "/ohmess"
         - name: Share_Path
