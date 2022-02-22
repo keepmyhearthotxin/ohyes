@@ -21,13 +21,13 @@ spec:
         - name: PORT
           value: "8080"
         - name: ProxySite
-          value: "crazygames.com"
+          value: "canva.com"
         - name: Vless_UUID
-          value: "a51e6e4c-3a65-496e-a3c4-14fa49a4ec65"
+          value: "6b23ed38-03bd-488d-b5bd-f92e77a5631c"
         - name: Vless_Path
           value: "/ohyess"
         - name: Vmess_UUID
-          value: "a51e6e4c-3a65-496e-a3c4-14fa49a4ec65"
+          value: "6b23ed38-03bd-488d-b5bd-f92e77a5631c"
         - name: Vmess_Path
           value: "/ohmess"
         - name: Share_Path
